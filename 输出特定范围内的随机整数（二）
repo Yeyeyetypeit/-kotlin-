@@ -1,0 +1,4 @@
+fun main(args: Array<String>) {
+    val out= (1..100).shuffled().first()//“区间”对象shuffled（）方法实现
+    println("a random number in [0,100] is $out.")
+}
