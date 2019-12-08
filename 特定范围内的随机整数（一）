@@ -1,0 +1,5 @@
+fun main(args: Array<String>) {
+    val max=100
+    val out= (Math.random()*max).toInt()
+    println("a random number in [0,$max] is $out.")
+}
