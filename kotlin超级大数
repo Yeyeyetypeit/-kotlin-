@@ -1,0 +1,10 @@
+ 定义：
+       val a = BigInteger("1231233123123123")
+       val b = BigInteger("4567436546546546")
+计算：
+      相加 add();
+      相减  subtract();
+      相乘  multiply();
+      相除  divide();
+      求余  remainder();
+      例子：val c=a.multiply(b)
