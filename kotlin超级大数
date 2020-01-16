@@ -8,3 +8,21 @@
       相除  divide();
       求余  remainder();
       例子：val c=a.multiply(b)
+例：计算50！
+
+import java.math.BigInteger
+fun calculateN(n: Int): BigInteger {
+    if (n == 1){
+        val a = BigInteger("1")
+        return a
+    }
+    val a = BigInteger("${n}")
+    val b=BigInteger("${calculateN(n-1)}")
+    val ret=a.multiply(b)
+    return ret
+}
+
+fun main(args: Array<String>) {
+    println("50! = ${calculateN(50)}")
+}
+
